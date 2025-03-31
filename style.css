@@ -1,0 +1,144 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ebebeb;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #941e1e;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #333;
+}
+
+.about h2{
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+}
+
+.about p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.about img{
+    padding-top: 50px;
+    width: 50%; 
+    height: auto; 
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.contact h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact form button {
+    background-color: #941e1e;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #0c1b12;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gallery .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #b41919;
+}
+
+footer {
+    background-color: #941e1e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
